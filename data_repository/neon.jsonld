@@ -2,6 +2,7 @@
     "@context": {
         "@vocab": "http://schema.org/"
     },
+    "@id": "https://www.neonscience.org/about#NEON",
     "@type": ["Service", "Organization"],
     "legalName": "National Ecological Observatory Network",
     "name": "NEON",
