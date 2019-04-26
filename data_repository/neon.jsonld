@@ -1,17 +1,16 @@
 {
     "@context": {
-        "@vocab": "http://schema.org/",
-        "gdx": "https://geodex.org/voc/"
+        "@vocab": "http://schema.org/"
     },
     "@type": ["Service", "Organization"],
-    "additionalType": "https://geodex.org/voc/ResearchRepositoryService",
-    "legalName": "Biological and Chemical Data Management Office",
-    "name": "BCO-DMO",
-    "url": "https://www.bco-dmo.org",
-    "description": "The BCO-DMO resource catalog offers free and open access to publicly funded research products whose field of study are biological and chemical oceanography.",
+    "legalName": "National Ecological Observatory Network",
+    "name": "NEON",
+    "url": "https://www.neonscience.org",
+    "description": "
+The National Ecological Observatory Network, sponsored by the National Science Foundation and operated by Battelle, is designed to collect and provide open data that characterize and quantify complex, rapidly changing ecological processes across the US. The comprehensive data, spatial extent and remote sensing technology provided by NEON will enable a large and diverse user community to tackle new questions at scales not accessible to previous generations of ecologists.",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://www.bco-dmo.org/files/bcodmo/images/bco-dmo-words-BLUE.jpg"
+      "url": "https://www.neonscience.org/"
     },
     "contactPoint": {
       "@id": "https://www.bco-dmo.org/about-us",
