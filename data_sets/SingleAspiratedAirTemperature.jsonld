@@ -25,7 +25,7 @@
   "keywords": ["air temperature", "met station", "meteolorogy", "platinum resistance thermometers (PRT)", "profile", "single aspirated air temperature (SAAT)", "tower"],
   "creator": [
     {
-      "@type": "Organization",
+      "@type": "Organization", //Could also be @type : "person"
       "@id": "",
       "name": "https://data.neonscience.org/about#NEON",  //This should be the organisation Schema we created previously not this url
       "url": "https://data.neonscience.org/home"
