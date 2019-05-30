@@ -1,0 +1,200 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "datacite": "http://purl.org/spar/datacite/"
+  },
+  "@id": "http://lod.example-data-repository.org/id/dataset/3300",
+  "identifier": {
+      "@type": ["PropertyValue", "datacite:ResourceIdentifier"],
+      "datacite:usesIdentifierScheme": { "@id": "datacite:doi" },
+      "propertyID": "DOI",
+      "value": "10.1234/1234567890",
+      "url": "https://doi.org/10.1234/1234567890"
+    },
+  "url": "https://www.example-data-repository.org/dataset/3300",
+  "@type": "Dataset",
+  "name": "Single aspirated air temperature", //Could put more information here about authors and/or sensor used etc
+  "alternateName": "Single aspirated air temperature",
+  "description": {
+    "@type": "HTML",
+    "@value": "&lt;p&gt;&quot;Air temperature, available as one- and thirty-minute averages of 1 Hz observations. Observations are made by sensors located at multiple
+    heights on the tower infrastructure and by sensors located on the aquatic meteorological station. Temperature observations are made using platinum resistance
+    thermometers, which are housed in a fan aspirated shield to reduce radiative bias.;/em&gt;&lt;/a&gt;&lt;/p&gt;"
+  },
+  "datePublished": "2013-12",
+  "keywords": ["air temperature", "met station", "meteolorogy", "platinum resistance thermometers (PRT)", "profile", "single aspirated air temperature (SAAT)", "tower"],
+  "creator": [
+    {
+      "@type": "Organization",
+      "@id": "",
+      "name": "https://data.neonscience.org/about#NEON",  //This should be the organisation Schema we created previously not this url
+      "url": "https://data.neonscience.org/home"
+    }],
+    //Citation contains parameters that need to be dynamically created based on a template
+  "citation": "National Ecological Observatory Network. [YEAR OF DOWNLOAD]. Data Products: [DPID1, DPID2…DPIDN].  Provisional data downloaded from http://data.neonscience.org on [DOWNLOAD DATE]. Battelle, Boulder, CO, USA ",
+  "version": "2018-01-09T00:00:00.000Z",
+  //Create NEON license type
+  "license": "https://data.neonscience.org/data-policy",
+  "temporalCoverage": "2017-12-11T00:00:00.000Z to 2018-04-25T00:00:00.000Z",
+    //This is where we need site descriptions which would then be uris that contain all this information. Eg see second place
+  "spatialCoverage": {[
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoShape",
+      "box":  "-68.4817,-75.8183, -65.08,-68.5033",
+      "polygon": "-68.4817,-75.8183 -65.08,-75.8183 -65.08,-68.5033 -68.4817,-68.5033 -68.4817,-75.8183"
+    }
+    "@type": "Place",
+    "@ID":"http://neonscience.org/Site2345"
+  ],
+    "additionalProperty": [ //Why is this a property of dataset (and not of Geo) - Question for science on schema
+      {//contents left in place as example for discussion context, not applicable to this dataset
+        "@type": "PropertyValue",
+        "alternateName": "SRS",
+        "name": "Spatial Reference System",
+        "value": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+      },
+      {
+        "@type": "PropertyValue",
+        "value": "POLYGON ((-75.8183 -68.4817, -68.5033 -68.4817, -68.5033 -65.08, -75.8183 -65.08, -75.8183 -68.4817))",
+        "propertyID": "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "name": "Well-Known Text",
+        "alternateName": "WKT"
+      }
+    ]
+  },
+  "publisher": {
+    "@id": "https://www.example-data-repository.org",
+    "@type": "Organization",
+    "name": "https://data.neonscience.org/about#NEON",  //This should be the organisation Schema we created previously not this url
+    "url": "https://data.neonscience.org/home"
+  },
+  "provider": {
+    "url": "https://data.neonscience.org/home"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://data.neonscience.org/browse-data?showAllDates=true&dpCode=DP1.00002.001&siteCode=PRIN&siteCode=MAYF&siteCode=WOOD&siteCode=LECO&siteCode=TECR&siteCode=TALL&siteCode=CARI&siteCode=ARIK&siteCode=JERC&siteCode=OSBS&siteCode=COMO&siteCode=KONZ&siteCode=DEJU&siteCode=DCFS&siteCode=WREF&siteCode=MLBS&siteCode=HOPB&siteCode=RMNP&siteCode=OKSR&siteCode=BARR&siteCode=OAES&siteCode=PRPO&siteCode=GRSM&siteCode=YELL&siteCode=SERC&siteCode=ABBY&siteCode=LEWI&siteCode=DELA&siteCode=FLNT&siteCode=SOAP&siteCode=BARC&siteCode=TOOK&siteCode=GUIL&siteCode=SCBI&siteCode=KONA&siteCode=POSE&siteCode=KING&siteCode=TREE&siteCode=GUAN&siteCode=DSNY&siteCode=MCDI&siteCode=TOOL&siteCode=ORNL&siteCode=CRAM&siteCode=UKFS&siteCode=BLUE&siteCode=CPER&siteCode=HEAL&siteCode=NOGP&siteCode=LAJA&siteCode=PRLA&siteCode=WLOU&siteCode=BLDE&siteCode=REDB&siteCode=LENO&siteCode=LIRO&siteCode=HARV&siteCode=BART&siteCode=BONA&siteCode=MCRA&siteCode=WALK&siteCode=SJER&siteCode=JORN&siteCode=SYCA&siteCode=STEI&siteCode=SUGG&siteCode=MOAB&siteCode=STER&siteCode=BLAN&siteCode=ONAQ&siteCode=SRER&siteCode=CLBJ&siteCode=MART&siteCode=NIWO&siteCode=CUPE&siteCode=BIGC&siteCode=TEAK&siteCode=UNDE",
+      "encodingFormat": "text/csv",
+      "datePublished": "2018-01-09T00:00:00.000Z"
+    }
+  ],
+  //Q for Adam:Can we incorporate a meachanism for abbreviations/knownas
+  "measurementTechnique": ["Platinum Resistance Thermometer", "PRT"],
+
+  //Q for NEON: Which additional properties should be associated with this datase/what if any have exposed LD endpoints?
+
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+       //Q for NEON: Is Dry Bulb Temperature correct?
+       //Q for NEON: "url" could be a link to your NEON vocabulary or rather reference the correct community ontology
+      "@id": "http://sweetontology.net/propTemperature/DryBulbTemperature",
+    "name": "Dry Bulb Temperature",
+      "description": "The dry-bulb temperature is the temperature of air measured by a thermometer freely exposed to the air but shielded from radiation and moisture. DBT is the temperature that is usually thought of as air temperature, and it is the true thermodynamic temperature.",
+      "url": "https://www.example-data-repository.org/dataset-parameter/20860",
+      "unitText": "Celcius"
+    },
+    //Q for NEON:  The follow are left as examples but we need to decide what other properties of a data set you want to expose
+    {
+      "@type": "PropertyValue",
+      "@id": "http://lod.example-data-repository.org/id/dataset-parameter/20861",
+      "name": "year",
+      "description": "year of experiment",
+      "url": "https://www.example-data-repository.org/dataset-parameter/20861",
+      "unitText": "YYYY"
+    },
+    {
+      "@type": "PropertyValue",
+      "@id": "http://lod.example-data-repository.org/id/dataset-parameter/20862",
+      "name": "sample_id",
+      "description": "sample identification: WBC=whole body clearance expt.; WBF=whole body fluorescence on collection",
+      "url": "https://www.example-data-repository.org/dataset-parameter/20862",
+      "unitText": "alpha-numeric"
+    },
+    {
+      "@type": "PropertyValue",
+      "@id": "http://lod.example-data-repository.org/id/dataset-parameter/20863",
+      "name": "time_sample",
+      "description": "time of sampling for pigment content after collection; decline of pigment content with time was used to calculate time to clear the gut of pigment.",
+      "url": "https://www.example-data-repository.org/dataset-parameter/20863",
+      "unitText": "minutes"
+    },
+    {
+      "@type": "PropertyValue",
+      "@id": "http://lod.example-data-repository.org/id/dataset-parameter/20864",
+      "name": "pigment_content",
+      "description": "pigment content",
+      "url": "https://www.example-data-repository.org/dataset-parameter/20864",
+      "unitText": "micrograms total chl/grams wet weight"
+    },
+    {
+      "@type": "PropertyValue",
+      "@id": "http://lod.example-data-repository.org/id/dataset-parameter/20865",
+      "name": "stage_id",
+      "description": "stage development index of larvae in sample (furcilia = F1-6 = 1-6,  juvenile = J=7)",
+      "url": "https://www.example-data-repository.org/dataset-parameter/20865"
+    },
+    {
+      "@type": "PropertyValue",
+      "@id": "http://lod.example-data-repository.org/id/dataset-parameter/20866",
+      "name": "wet_weight",
+      "description": "average wet weight/larvae in sample",
+      "url": "https://www.example-data-repository.org/dataset-parameter/20866",
+      "unitText": "mg"
+    },
+    {
+      "@type": "PropertyValue",
+      "@id": "http://lod.example-data-repository.org/id/dataset-parameter/20874",
+      "name": "lat",
+      "description": "latitude, in decimal degrees, North is positive, negative denotes South",
+      "url": "https://www.example-data-repository.org/dataset-parameter/20874",
+      "unitText": "decimal degrees"
+    },
+    {
+      "@type": "PropertyValue",
+      "@id": "http://lod.example-data-repository.org/id/dataset-parameter/20875",
+      "name": "lon",
+      "description": "longitude, in decimal degrees, East is positive, negative denotes West",
+      "url": "https://www.example-data-repository.org/dataset-parameter/20875",
+      "unitText": "decimal degrees"
+    },
+    {
+      "@type": "PropertyValue",
+      "@id": "http://lod.example-data-repository.org/id/dataset-parameter/20876",
+      "name": "day_local",
+      "description": "day of month, local time",
+      "url": "https://www.example-data-repository.org/dataset-parameter/20876"
+    },
+    {
+      "@type": "PropertyValue",
+      "@id": "http://lod.example-data-repository.org/id/dataset-parameter/20877",
+      "name": "month_local",
+      "description": "month, local time\n",
+      "url": "https://www.example-data-repository.org/dataset-parameter/20877"
+    },
+    {
+      "@type": "PropertyValue",
+      "@id": "http://lod.example-data-repository.org/id/dataset-parameter/20878",
+      "name": "time_local",
+      "description": "time of day, local time, using 2400 clock format",
+      "url": "https://www.example-data-repository.org/dataset-parameter/20878"
+    },
+    {
+      "@type": "PropertyValue",
+      "@id": "http://lod.example-data-repository.org/id/dataset-parameter/20879",
+      "name": "yrday_local",
+      "description": "local day and decimal time, as 326.5 for the 326th day of the year, or November 22 at 1200 hours (noon)",
+      "url": "https://www.example-data-repository.org/dataset-parameter/20879"
+    }
+  ],
+  //Q for Adam:  I copied this from how we implmented the same for the definition of NEON as a org.  Is this sufficient?
+  "funder": {
+  "@type": "Organization",
+  "@id":"http://data.crossref.org/fundingdata/funder/10.13039/100000076 ",
+  "legalName": "Division of Biological Sciences",
+  "alternateName": "NSF BIO",
+   "url": "https://nsf.gov/dir/index.jsp?org=BIO"
+    }
+}

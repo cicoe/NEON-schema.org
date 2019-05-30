@@ -22,9 +22,9 @@
     },
     "funder": {
       "@type": "Organization",
-      "@id": "https://doi.org/10.13039/100000153",
-      "legalName": "Division of Biological Infrastructure",
-      "alternateName": "DBI",
-      "url": "https://www.nsf.gov/div/index.jsp?div=DBI"
+      "@id":"http://data.crossref.org/fundingdata/funder/10.13039/100000076 ",
+      "legalName": "Division of Biological Sciences",
+      "alternateName": "BIO",
+      "url": "https://nsf.gov/dir/index.jsp?org=BIO"
     }
 }
