@@ -1,0 +1,31 @@
+{
+    "@context": {
+        "@vocab": "http://schema.org/"
+    },
+    "@id": "https://www.neonscience.org/about#NEON",
+    "@type": ["Service", "Organization"],
+    "legalName": "National Ecological Observatory Network",
+    "name": "NEON",
+    "url": "https://www.neonscience.org",
+    "description": "
+The National Ecological Observatory Network, sponsored by the National Science Foundation and operated by Battelle, is designed to collect and provide open data that characterize and quantify complex, rapidly changing ecological processes across the US. The comprehensive data, spatial extent and remote sensing technology provided by NEON will enable a large and diverse user community to tackle new questions at scales not accessible to previous generations of ecologists.",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.neonscience.org/"
+    },
+    "contactPoint": {
+      "@id": "https://www.bco-dmo.org/about-us",
+      "@type": "ContactPoint",
+      "name": "Support",
+      "email": "info@bco-dmo.org",
+      "url": "https:/www.bco-dmo.org/about-us",
+      "contactType": "customer support"
+    },
+    "funder": {
+      "@type": "Organization",
+      "@id":"http://data.crossref.org/fundingdata/funder/10.13039/100000076 ",
+      "legalName": "Division of Biological Sciences",
+      "alternateName": "BIO",
+      "url": "https://nsf.gov/dir/index.jsp?org=BIO"
+    }
+}
