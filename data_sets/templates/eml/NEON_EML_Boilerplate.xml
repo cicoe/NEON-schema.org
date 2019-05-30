@@ -1,0 +1,109 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+
+<eml:eml packageId="" scope="system" system="https://neoninc.org"
+    xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+    xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+
+    <access order="allowFirst" authSystem="https://neoninc.org/authentication">
+        <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+        </allow>
+    </access>
+
+    <dataset>
+        <language>english</language>
+
+        <project>
+            <title>National Ecological Research Network (NEON)</title>
+            <personnel>
+                <role>originator</role>
+                <organizationName>National Ecological Observatory Network (NEON)</organizationName>
+                <address>
+                    <deliveryPoint>1685 38th Street, Suite 100</deliveryPoint>
+                    <city>Boulder</city>
+                    <administrativeArea>CO</administrativeArea>
+                    <postalCode>80301</postalCode>
+                    <country>USA</country>
+                </address>
+                <phone phonetype="voice">720-746-4844</phone>
+                <onlineUrl>http://www.neonscience.org</onlineUrl>
+            </personnel>
+
+            <abstract>
+                <para>The National Ecological Observatory Network is a project sponsored by the
+                    National Science Foundation.</para>
+                <para>NEON's mission is to design, implement, and operate continental-scale research
+                    infrastructure to open new horizons in ecological science and education, and to
+                    enable ecological analyses and forecasts for the benefit of society.</para>
+            </abstract>
+            <funding>
+                <para>NSF Awards EF-1029808, EF-1246537, EF-1138160, EF-0752017</para>
+            </funding>
+            <studyAreaDescription>
+                <citation id="neon_2011_sciencedesign">
+                    <title>"2011 Science Strategy: Enabling Continental-Scale Ecological
+                        Forecasting"</title>
+                    <pubDate>2011</pubDate>
+                    <language>english</language>
+                    <intellectualRights>Copyright 2011 NEON, Inc. ALL RIGHTS
+                        RESERVED</intellectualRights>
+                    <report>
+                        <totalPages>56</totalPages>
+                    </report>
+                    <distribution>
+                        <online>
+                            <url>http://www.neonscience.org/sites/default/files/basic-page-files/NEON_Strategy_2011u2_0.pdf</url>
+                        </online>
+                    </distribution>
+
+                </citation>
+
+            </studyAreaDescription>
+
+            <designDescription>
+                <citation>
+                    <references>neon_2011_sciencedesign</references>
+                </citation>
+            </designDescription>
+        </project>
+
+        <intellectualRights>
+            <para>NEON Data Usage and Citation Policy</para>
+            <para>Copyright © 2018 National Ecological Observatory Network</para>
+            <para>Permission is hereby granted, free of charge, to any person or organization
+                obtaining a copy of the NEON Observatory data products, associated software and
+                accompanying documentation covered by this license (the "NEON Data Products") to
+                use, reproduce, display, distribute, publish, execute, and transmit the NEON Data
+                Products, and to prepare derivative works of the NEON Data Products, and to permit
+                third-parties to whom the NEON Data Products are furnished to do so, all subject to
+                the following:</para>
+            <para>The copyright notices in the NEON Data Products and this entire statement,
+                including the above copyright statement, license grant, this restriction and the
+                following disclaimer, must be included in all copies of the NEON Data Products, in
+                whole or in part, and all derivative works of the Data Products.</para>
+            <para>The NEON data products are provided "as is", without warranty of any kind, express
+                or implied, including but not limited to the warranties of merchantability, fitness
+                for a particular purpose, title and non-infringement. In no event shall the
+                copyright holders or anyone distributing the neon data products be liable for any
+                damages or other liability, whether in contract, tort or otherwise, arising from,
+                out of or in connection with the NEON data products.</para>
+        </intellectualRights>
+
+        <distribution>
+            <online>
+                <url function="information">http://data.neonscience.org/</url>
+            </online>
+        </distribution>
+
+        <maintenance>
+            <description>
+                <para>These data are available via the NEON Data Portal
+                    (http://data.neonscience.org).</para>
+            </description>
+            <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+        </maintenance>
+    </dataset>
+</eml:eml>
