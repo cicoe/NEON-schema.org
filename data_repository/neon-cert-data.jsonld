@@ -1,0 +1,28 @@
+{
+    "@context": "http://schema.org/",
+    "@id": "https://cert-data.neonscience.org/home#organization,
+    "@type": "Organization",
+    "legalName": "National Ecological Observatory Network",
+    "name": "NEON",
+    "url": "https://www.neonscience.org",
+    "description": "The National Ecological Observatory Network, sponsored by the National Science Foundation and operated by Battelle, is designed to collect and provide open data that characterize and quantify complex, rapidly changing ecological processes across the US. The comprehensive data, spatial extent and remote sensing technology provided by NEON will enable a large and diverse user community to tackle new questions at scales not accessible to previous generations of ecologists.",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cert-data.neonscience.org/neon-data-theme/images/logo.png?v5.13.3"
+    },
+    "contactPoint": {
+      "@id": "https://www.neonscience.org/about/contact-us,
+      "@type": "ContactPoint",
+      "name": "Support",
+      "email": "info@neonscience.org",
+      "url": "https://www.neonscience.org/about/contact-us",
+      "contactType": "customer support"
+    },
+    "funder": {
+      "@type": "Organization",
+      "@id": "https://doi.org/10.13039/100000153",
+      "legalName": "Division of Biological Infrastructure",
+      "alternateName": "DBI",
+      "url": "https://www.nsf.gov/div/index.jsp?div=DBI"
+    }
+}
