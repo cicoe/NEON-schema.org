@@ -1,0 +1,270 @@
+unitName,unitDesc,unitAbbr,unitAbbrMathJax,unitType,parentSI,multiplierToSI,constantToSI,measScale,referenceURL,referenceCitation,startUseDateDPS
+acre,"1 acre = 4046.8564 square meters",ac,"$$ ac $$",area,squareMeter,4046.86,NULL,ratio,NULL,NULL,2012-01-01
+ampere,"SI base unit of electrical current, equal to a flow of one coulomb per second",A,"$$ A $$",current,coulombsPerSecond,1,NULL,interval,NULL,NULL,2012-01-01
+amperesPerMeter,"amperes per meter",A/m,"$$ A{cdot}m^{-1} $$",magneticFieldStrength,NULL,1,NULL,interval,NULL,NULL,2016-03-08
+amperesPerSquareMeter,"amperes per square meter",A/m^2,"$$ A{cdot}m^{-2} $$",currentDensity,NULL,1,NULL,interval,NULL,NULL,2016-03-08
+angstrom,"0.00000000001 meters",A,"$$ overset{circ}{A} $$",length,meter,0.0000000001,NULL,ratio,NULL,NULL,2012-01-01
+angularWavenumber,"The number of radians per distance unit, defined as the symbol k. 1 angular wavenumber or circular wavenumber k = 2*pi/lambda",k,"$$ k $$",NULL,NULL,NULL,NULL,ratio,https://en.wikipedia.org/wiki/Wavenumber,NULL,2016-04-26
+arcMinute,"A unit of angular measurement equal to a 60th of a degree",arcmin,"$$ arcmin $$",angle,radian,0.000290888,NULL,ratio,NULL,NULL,NULL
+arcSecond,"A unit of angular measurement equal to a 60th or an arcMinute and a 3600th of a degree",arcsec,"$$ arcsec $$",angle,radian,0.000004848,NULL,ratio,NULL,NULL,NULL
+are,"100 square meters",a,"$$ are $$",area,squareMeter,100,NULL,ratio,NULL,NULL,2012-01-01
+atmosphere,"1 atmosphere = 101325 pascals ",atm,"$$ atm $$",pressure,pascal,101325,NULL,ratio,NULL,NULL,2012-01-01
+bar,"1 bar = 100000 pascals",bar,"$$ bar $$",pressure,pascal,100000,NULL,ratio,NULL,NULL,2012-01-01
+becquerel,"SI derived unit of radioactivity, equivalent to an inverse second",Bq,"$$ Bq $$",radionucleotideActivity,becquerel,1,NULL,ratio,https://en.wikipedia.org/wiki/Becquerel,NULL,2012-01-01
+britishThermalUnit,"1 BTU = 1055.0559 joules",BTU,"$$ BTU $$",energy,joule,1055.06,NULL,ratio,NULL,NULL,2012-01-01
+bushel,"1 bushel = 35.23907 liters",bsh,"$$ bsh $$",volume,liter,0.035239,NULL,ratio,NULL,NULL,2012-01-01
+bushelsPerAcre,"bushels per acre -- 1 bushel = 35.23907 liters/1 acre = 4046.8564 squareMeters",bsh/ac,"$$ bsh{cdot}ac^{-1} $$",volumetricArea,litersPerSquareMeter,0.0087,NULL,ratio,NULL,NULL,2012-01-01
+calendarYear,"an approximation of the number of days of the Earth's orbital period as counted in a given calendar",y,"$$ y $$",time,second,NULL,NULL,ratio,NULL,NULL,2016-04-26
+calorie,"1 calorie = 4.1868 Joules",cal,"$$ cal $$",energy,joule,4.1868,NULL,ratio,NULL,NULL,2012-01-01
+candela,"SI unit of luminosity",cd,"$$ cd $$",luminosity,candela,1,NULL,ratio,NULL,NULL,2012-01-01
+candelasPerSquareMeter,"candelas per square meter",cd/m^2,"$$ C{cdot}m^{-2} $$",luminance,candelasPerSquareMeter,1,NULL,ratio,NULL,NULL,2016-03-08
+celsius,"a common unit of temperature, in degrees","deg C","$$ ^{circ}C $$",temperature,kelvin,1,273.15,interval,NULL,NULL,2012-01-01
+celsiusSquared,"degrees celsius squared; typically used for variance","deg C^2","$$ ^{circ}C^2 $$",variance,NULL,NULL,NULL,interval,NULL,NULL,2012-01-01
+centigram,"0.00001 kilograms",cg,"$$ cg $$",mass,kilogram,0.00001,NULL,ratio,NULL,NULL,2012-01-01
+centimeter,"0.01 meters",cm,"$$ cm $$",length,meter,0.01,NULL,ratio,NULL,NULL,2012-01-01
+centimetersPerSecond,"centimeters per second",cm/s,"$$ cm{cdot}s^{-1} $$",speed,metersPerSecond,0.01,NULL,ratio,NULL,NULL,2012-01-01
+centimetersPerYear,"centimeters per year",cm/y,"$$ cm{cdot}y^{-1} $$",speed,metersPerSecond,0.000000000317098,NULL,ratio,NULL,NULL,2012-01-01
+centimolesPerKilogram,"centimoles per kilogram",cmol/kg,"$$ cmol{cdot}kg^{-1} $$",amountOfSubstanceWeight,molesPerKilogram,0.01,NULL,ratio,NULL,NULL,2015-02-18
+centisecond,"0.01 seconds",cs,"$$ cs $$",time,second,0.01,NULL,ratio,NULL,NULL,2012-01-01
+coulomb,"SI unit of charge",C,"$$ C $$",charge,coulomb,1,NULL,ratio,NULL,NULL,2012-01-01
+cubicCentimeter,"cubic centimeter",cm^3,"$$ cm^3 $$",volume,cubicMeter,0.000001,NULL,ratio,NULL,NULL,2015-02-18
+cubicCentimetersPerCubicCentimeter,"cubic centimeters per cubic centimeter",cm^3/cm^3,"$$ cm^3{cdot}cm^{-3} $$",volumePerVolume,NULL,NULL,NULL,ratio,NULL,NULL,2012-01-01
+cubicCentimetersPerCubicCentimeterSquared,"cubic centimeters per cubic centimeter squared",(cm^3/cm^3)^2,"$$ (cm^3{cdot}cm^{-3})^2 $$",volumePerVolume,NULL,NULL,NULL,ratio,NULL,NULL,2012-01-01
+cubicFeetPerSecond,"cubic feet per second",ft^3/sec,"$$ ft^3{cdot}s^{-1} $$",volumetricRate,litersPerSecond,28.3169,NULL,ratio,NULL,NULL,2012-01-01
+cubicInch,"cubic inch",in^3,"$$ in^3 $$",volume,liter,0.0000163871,NULL,ratio,NULL,NULL,2012-01-01
+cubicMeter,"cubic meter",m^3,"$$ m^3 $$",volume,cubicMeter,1,NULL,ratio,NULL,NULL,2012-01-01
+cubicMetersPerHour,"cubic meters per hour",m^3/h,"$$ m^3{cdot}h^{-1} $$",volumetricRate,cubicMetersPerSecond,3600,NULL,ratio,NULL,NULL,2015-10-15
+cubicMetersPerKilogram,"cubic meters per kilogram",m^3/kg,"$$ m^3{cdot}kg^{-1} $$",volumetricMass,cubicMetersPerKilogram,1,NULL,ratio,NULL,NULL,2012-01-01
+cubicMetersPerSecond,"cubic meters per second",m^3/s,"$$ m^3{cdot}s^{-1} $$",volumetricRate,cubicMetersPerSecond,1,NULL,ratio,NULL,NULL,2012-01-01
+cubicMicrometer,"cubic micrometer",um^3,"$$ {mu}m^3 $$",volume,cubicMeter,1e-18,NULL,ratio,NULL,NULL,2016-10-01
+cubicMicrometersPerGram,"cubic micrometers per gram",um^3/kg,"$$ {mu}m^3{cdot}g^{-1} $$",volumetricMass,cubicMetersPerKilogram,0.000000000000001,NULL,ratio,NULL,NULL,2012-01-01
+day,"one day, 86400 seconds",d,"$$ d $$",time,second,86400,NULL,ratio,NULL,NULL,2015-01-19
+decigram,"0.0001 kilograms",dg,"$$ dg $$",mass,kilogram,0.0001,NULL,ratio,NULL,NULL,2012-01-01
+decimalDegree,"latitude and longitude coordinates expressed as decimal fractions",DD,"$$ DD $$",angle,radian,0.0174533,NULL,ratio,NULL,NULL,2012-01-01
+decimeter,"0.1 meters",dm,"$$ dm $$",length,meter,0.1,NULL,ratio,NULL,NULL,2012-01-01
+decisecond,"0.1 seconds",ds,"$$ ds $$",time,second,0.1,NULL,ratio,NULL,NULL,2012-01-01
+decisiemensPerMeter,"decisiemens per meter",dS/m,"$$ dS{cdot}m^{-1} $$",conductance,siemensPerMeter,0.1,NULL,ratio,NULL,NULL,2015-02-18
+degree,"360 degrees comprise a unit circle",deg,"$$ ...^{circ} $$",angle,radian,0.0174533,NULL,ratio,NULL,NULL,2012-01-01
+degreesPerSecond,"degrees per second",deg/s,"$$ ^(circ){cdot}m^(-2) $$",NULL,NULL,NULL,NULL,ratio,NULL,NULL,NULL
+degreesSquared,"360 degrees comprise a unit circle; degreesSquared is the units of the variance of degrees",deg^2,"$$ (...^{circ})^2 $$",angle,radian,NULL,NULL,ratio,NULL,NULL,2012-01-01
+dekagram,"0.01 kilograms",dag,"$$ dag $$",mass,kilogram,0.01,NULL,ratio,NULL,NULL,2012-01-01
+dekameter,"10 meters",dam,"$$ dam $$",length,meter,10,NULL,ratio,NULL,NULL,2012-01-01
+dekasecond,"10 seconds",dasec,"$$ dasec $$",time,second,10,NULL,ratio,NULL,NULL,2012-01-01
+dimensionless,"a designation asserting the absence of an associated unit",NULL,"$$ $$",dimensionless,NULL,NULL,NULL,interval,NULL,NULL,2012-01-01
+equivalent,"The amount of substance which will either react with or supply one mole of hydrogen ions (H+) in an acid base reaction; or react with or supply one mole of electrons in a redox reaction",eq,"$$ eq $$",amount,NULL,NULL,NULL,ratio,https://en.wikipedia.org/wiki/Equivalent_(chemistry),NULL,2016-04-26
+equivalentsPerLiter,"equivalents per liter",eq/L,"$$ eq{cdot}L^{-1} $$",amountOfSubstanceConcentration,NULL,NULL,NULL,ratio,NULL,NULL,2012-01-01
+fahrenheit,"An obsolescent unit of temperature still used in popular meteorology where there is 180 degrees between the freezing point of water at 32 F and the boiling point of water at 212 F. Deg F = K * (9/5) -459.67 = Deg C * (9/5) + 32.","deg F","$$ ^{circ}F $$",temperature,kelvin,0.556,255.402,interval,NULL,NULL,2012-01-01
+farad,"SI derived unit of electrical capacitance; the capacitance across which, when charged with one coulomb, there is a potential difference of one volt",F,"$$ F $$",capacitance,farad,1,NULL,ratio,NULL,NULL,2012-01-01
+fathom,"6 feet",fathom,"$$ fathom $$",length,meter,1.8288,NULL,ratio,https://en.wikipedia.org/wiki/Farad,"The International System of Units (SI) (PDF) (8th ed.). Bureau International des Poids et Mesures (International Committee for Weights and Measures). 2006. p. 144.",2012-01-01
+feetPerDay,"feet per day",ft/day,"$$ ft{cdot}d^{-1} $$",speed,metersPerSecond,0.00000352778,NULL,ratio,NULL,NULL,2012-01-01
+feetPerHour,"feet per hour",ft/hr,"$$ ft{cdot}h^{-1} $$",speed,metersPerSecond,0.000084667,NULL,ratio,NULL,NULL,2012-01-01
+feetPerSecond,"feet per second",ft/s,"$$ ft{cdot}s^{-1} $$",speed,metersPerSecond,0.3048,NULL,ratio,NULL,NULL,2012-01-01
+feetSquaredPerDay,"feet squared per day",ft^2/day,"$$ ft^2{cdot}d^{-1} $$",transmissivity,metersSquaredPerSecond,0.000124586,NULL,ratio,NULL,NULL,2012-01-01
+foot,"12 inches",ft,"$$ ft $$",length,meter,0.3048,NULL,ratio,NULL,NULL,2012-01-01
+footPound,"1 foot-pound = 1.355818 joules",ft-lb,"$$ ft{cdot}lb $$",energy,joule,1.35582,NULL,ratio,NULL,NULL,2012-01-01
+formazinNephelometricUnit,"Reflectance at 90 degrees from incident beam with near infrared source. Used for turbidity measurements.",FNU,"$$ FNU $$",luminance,NULL,NULL,NULL,ratio,NULL,"Anderson, C.W. (2005) Chapter A6.7: Turbidity published in National Field Manual for the Collection of Water-Quality Data. U.S. Geological Survey. Accessed October 14, 2015 at: http://water.usgs.gov/owq/FieldManual/",2015-10-16
+gallon,"US liquid gallon",gal,"$$ gal $$",volume,liter,3.78541,NULL,ratio,NULL,NULL,2012-01-01
+grad,"a plane angle equivalent to 1/400 of a full circle",grad,"$$ grad $$",angle,radian,0.015707,NULL,ratio,NULL,NULL,2012-01-01
+gram,"0.001 kilograms",g,"$$ g $$",mass,kilogram,0.001,NULL,ratio,NULL,NULL,2012-01-01
+gramsPerCentimeterSquaredPerSecond,"grams per centimeter squared per second",g/cm^2/s,"$$ g{cdot}cm^{-2}{cdot}s^{-1} $$",arealMassDensityRate,kilogramsPerMeterSquaredPerSecond,0.1,NULL,ratio,NULL,NULL,2012-01-01
+gramsPerCubicCentimeter,"grams per cubic centimeter",g/cm^3,"$$ g{cdot}cm^{-3} $$",massDensity,kilogramsPerCubicMeter,1000,NULL,ratio,NULL,NULL,2012-01-01
+gramsPerGram,"grams per gram",g/g,"$$ g{cdot}g^{-1} $$",massPerMass,kilogramsPerKilogram,1,NULL,ratio,NULL,NULL,2012-01-01
+gramsPerHectarePerDay,"grams per hectare per day",g/ha/d,"$$ g{cdot}ha{cdot}d^{-1} $$",arealMassDensityRate,kilogramsPerMeterSquaredPerSecond,0.0000000000011574,NULL,ratio,NULL,NULL,2012-01-01
+gramsPerHectogram,"grams per hectogram",g/hg,"$$ g{cdot}hg^{-1} $$",massPerMass,kilogramsPerKilogram,0.01,NULL,ratio,NULL,NULL,2015-02-18
+gramsPerKilogram,"grams per kilogram",g/kg,"$$ g{cdot}kg^{-1} $$",massPerMass,kilogramsPerKilogram,0.001,NULL,ratio,NULL,NULL,2015-02-18
+gramsPerLiter,"grams per liter",g/L,"$$ g{cdot}L^{-1} $$",massDensity,kilogramsPerCubicMeter,1,NULL,ratio,NULL,NULL,2012-01-01
+gramsPerLiterPerDay,"grams per liter per day",g/L/d,"$$ g{cdot}L^{-1}{cdot}d^{-1} $$",volumetricMassDensityRate,kilogramsPerCubicMeterPerSecond,3600,NULL,ratio,NULL,NULL,2012-01-01
+gramsPerMeterSquaredPerYear,"grams per meter squared per year",g/m^2/y,"$$ g{cdot}m^{-2}{cdot}y^{-1} $$",arealMassDensityRate,kilogramsPerMeterSquaredPerSecond,0.0000000000317098,NULL,ratio,NULL,NULL,2012-01-01
+gramsPerMilliliter,"grams per milliliter",g/mL,"$$ g{cdot}mL^{-1} $$",massFlux,kilogramsPerSecond,0.0000000000317,NULL,ratio,NULL,NULL,2012-01-01
+gramsPerSquareMeter,"grams per square meter",g/m^2,"$$ g{cdot}m^{-2} $$",arealMassDensity,kilogramsPerSquareMeter,0.001,NULL,ratio,NULL,NULL,2012-01-01
+gramsPerYear,"grams per year",g/y,"$$ g{cdot}y^{-1} $$",massFlux,kilogramsPerSecond,0.0000000000317,NULL,ratio,NULL,NULL,2012-01-01
+gray,"The gray is a derived unit of ionizing radiation dose in the International System of Units (SI). It is defined as the absorption of one joule of radiation energy per one kilogram of matter",Gy,"$$ Gy $$",specificEnergy,joulesPerKilogram,1,NULL,ratio,https://en.wikipedia.org/wiki/Gray_(unit),NULL,2012-01-01
+gregorianYear,"365 days in an ordinary year (31536000 seconds); 366 days in a leap year (31622400 seconds)",y,"$$ y $$",time,NULL,NULL,NULL,interval,https://en.wikipedia.org/wiki/Gregorian_calendar,NULL,2012-01-01
+hectare,"10000 square meters",ha,"$$ ha $$",area,squareMeter,10000,NULL,ratio,NULL,NULL,2012-01-01
+hectogram,"0.1 kilogram",hg,"$$ hg $$",mass,kilogram,0.1,NULL,ratio,NULL,NULL,2012-01-01
+hectometer,"100 meters",km,"$$ hm $$",length,meter,100,NULL,ratio,NULL,NULL,2012-01-01
+hectosecond,"100 seconds",hs,"$$ hs $$",time,second,100,NULL,ratio,NULL,NULL,2012-01-01
+henry,"SI derived unit of inductance, equal to an electromotive force of one volt in a closed circuit with a uniform rate of change of current of one ampere per second.",H,"$$ H $$",inductance,henry,1,NULL,ratio,NULL,NULL,2012-01-01
+hertz,"SI derived unit of frequency, equal to one cycle per second",Hz,"$$ Hz $$",frequency,hertz,1,NULL,ratio,NULL,NULL,2012-01-01
+hour,"3600 seconds",h,"$$ h $$",time,second,3600,NULL,ratio,NULL,NULL,2012-01-01
+inch,"An imperial measure of length",in,"$$ in $$",length,meter,0.0254,NULL,ratio,NULL,NULL,2012-01-01
+joule,"SI unit of work or energy, equal to the work done by a force of one newton when its point of application moves one meter in the direction of action of the force, equivalent to one 3600th of a watt-hour. 1 joule = 1 newton * 1 meter",J,"$$ J $$",energy,joule,1,NULL,ratio,NULL,NULL,2012-01-01
+julianYear,"365.25 days of exactly 86400 SI seconds each, totalling exactly 31557600 seconds in the Julian astronomical yea",y,"$$ y $$",time,second,31557600,NULL,ratio,https://en.wikipedia.org/wiki/Julian_year_(astronomy),NULL,2012-01-01
+katal,"SI derived unit for the expression of catalytic activity in moles per second. ",kat,"$$ kat $$",catalyticActivity,katal,1,NULL,ratio,NULL,NULL,2012-01-01
+kelvin,"SI unit of temperature",K,"$$ K $$",temperature,kelvin,1,NULL,ratio,NULL,NULL,2012-01-01
+kilogram,"SI unit of mass",kg,"$$ kg $$",mass,kilogram,1,NULL,ratio,NULL,NULL,2012-01-01
+kilogramsPerCubicMeter,"kilograms per cubic meter",kg/m^3,"$$ kg{cdot}m^{-3} $$",massDensity,kilogramsPerCubicMeter,1,NULL,ratio,NULL,NULL,2012-01-01
+kilogramsPerHectare,"kilograms per hectare",kg/ha,"$$ kg{cdot}ha^{-1} $$",arealMassDensity,kilogramsPerSquareMeter,0.0001,NULL,ratio,NULL,NULL,2012-01-01
+kilogramsPerHectarePerYear,"kilograms per hectare per year",kg/ha/y,"$$ kg{cdot}ha{cdot}y^{-1} $$",arealMassDensityRate,kilogramsPerSquareMeterPerSecond,0.000316881,NULL,ratio,NULL,NULL,2012-01-01
+kilogramsPerSecond,"kilograms per second",kg/s,"$$ kg{cdot}s^{-1} $$",massFlux,kilogramsPerSecond,1,NULL,ratio,NULL,NULL,2012-01-01
+kilogramsPerSquareMeter,"kilograms per square meter",kg/m^2,"$$ kg{cdot}m^{-2} $$",arealMassDensity,kilogramsPerSquareMeter,1,NULL,ratio,NULL,NULL,2012-01-01
+kilogramsPerSquareMeterPerSecond,"kilograms per square meter per second",kg/m^2/s,"$$ kg{cdot}m^{-2}{cdot}s^{-1} $$",arealMassDensityRate,kilogramsPerSquareMeterPerSecond,1,NULL,ratio,NULL,NULL,2012-01-01
+kilogramsPerSquareMeterPerYear,"kilograms per square meter per year",kg/m^2/y,"$$ kg{cdot}m^{-2}{cdot}y^{-1} $$",arealMassDensityRate,kilogramsPerSquareMeterPerSecond,0.0000000316881,NULL,ratio,NULL,NULL,2012-01-01
+kilohertz,kilohertz,kHz,"$$ kHz $$",frequency,hertz,1000,NULL,ratio,NULL,NULL,2012-01-01
+kiloliter,"1000 cubic liters",kL,"$$ kL $$",volume,cubicMeter,1,NULL,ratio,NULL,NULL,2012-01-01
+kilometer,"1000 meters",km,"$$ km $$",length,meter,1000,NULL,ratio,NULL,NULL,2012-01-01
+kilometersPerHour,"kilometers per hour",km/h,"$$ km{cdot}h^{-1} $$",speed,metersPerSecond,0.2778,NULL,ratio,NULL,NULL,2012-01-01
+kilopascal,"1000 pascals",kPa,"$$ kPa $$",pressure,pascal,1000,NULL,ratio,NULL,NULL,2012-01-01
+kilopascalsSquared,"kilopascals squared; typically used for variance",kPa^2,"$$ kPa^2 $$",pressure,pascal,NULL,NULL,ratio,NULL,NULL,2012-01-01
+kilosecond,"1000 seconds",ks,"$$ ks $$",time,second,1000,NULL,ratio,NULL,NULL,2012-01-01
+kilovolt,"1000 volts",kV,"$$ kV $$",potentialDifference,volt,1000,NULL,ratio,NULL,NULL,2012-01-01
+kilowatt,"1000 watts",kW,"$$ kW $$",power,watt,1000,NULL,ratio,NULL,NULL,2012-01-01
+knot,"one nautical mile per hour",kn,"$$ kn $$",speed,metersPerSecond,0.514444,NULL,ratio,NULL,NULL,2012-01-01
+liter,"1000 cubic centimeters",L,"$$ L $$",volume,cubicMeter,0.001,NULL,ratio,NULL,NULL,2012-01-01
+litersPerHectare,"liters per hectare",L/ha,"$$ L{cdot}ha^{-1} $$",volumetricArea,cubicMetersPerSquareMeter,0.0001,NULL,ratio,NULL,NULL,2012-01-01
+litersPerMinute,"liters per minute",L/min,"$$ L{cdot}min^{-1} $$",volumetricRate,cubicMetersPerSecond,0.000000277778,NULL,ratio,NULL,NULL,2012-01-01
+litersPerSecond,"liters per second",L/s,"$$ L{cdot}s^{-1} $$",volumetricRate,cubicMetersPerSecond,0.001,NULL,ratio,NULL,NULL,2012-01-01
+litersPerSquareMeter,"liters per square meter",L/m^2,"$$ L{cdot}m^{-2} $$",volumetricArea,cubicMetersPerSquareMeter,0.001,NULL,ratio,NULL,NULL,2012-01-01
+lumen,"the luminous flux emitted in unit solid angle (steradian) by a uniform point source having a luminous intensity of 1 new candle. Equal to 1 candela * 1 steradian",lm,"$$ lm $$",luminousFlux,lumen,1,NULL,ratio,NULL,NULL,2012-01-01
+lux,"one lumen per square meter",lx,"$$ lx $$",illuminance,lux,1,NULL,ratio,NULL,NULL,2012-01-01
+manning,"n; the Gauckler-Manning coefficient; dependent on surface roughness and sinuosity",s/m^(1/3),"$$ s{cdot}m^{-1/3} $$",volumetricRate,NULL,NULL,NULL,ratio,NULL,NULL,NULL
+megagram,"1000 kilograms",Mg,"$$ Mg $$",mass,kilogram,1000,NULL,ratio,NULL,NULL,2012-01-01
+megahertz,"1000000 hertz",MHz,"$$ MHz $$",frequency,hertz,1000000,NULL,ratio,NULL,NULL,2012-01-01
+megameter,"1000000 meters",Mm,"$$ Mm $$",length,meter,1000000,NULL,ratio,NULL,NULL,2012-01-01
+megapascal,"1000000 pascals",MPa,"$$ Mpa $$",pressure,pascal,1000000,NULL,ratio,NULL,NULL,2012-01-01
+megasecond,"1000000 seconds",Ms,"$$ Ms $$",time,second,1000000,NULL,ratio,NULL,NULL,2012-01-01
+megavolt,"1000000 volts",MV,"$$ MV $$",potentialDifference,volt,1000000,NULL,ratio,NULL,NULL,2012-01-01
+megawatt,"1000000 watts",MW,"$$ MW $$",power,watt,1000000,NULL,ratio,NULL,NULL,2012-01-01
+meter,"0.001 kilometer",m,"$$ m $$",length,meter,1,NULL,ratio,NULL,NULL,2012-01-01
+metersPerDay,"meters per day",m/d,"$$ m{cdot}d^{-1} $$",speed,metersPerSecond,0.0000115741,NULL,ratio,NULL,NULL,2012-01-01
+metersPerGram,"meters per gram",m/g,"$$ m{cdot}g^{-1} $$",massSpecificLength,metersPerKilogram,0.001,NULL,ratio,NULL,NULL,2012-01-01
+metersPerSecond,"meters per second",m/s,"$$ m{cdot}s^{-1} $$",speed,metersPerSecond,1,NULL,ratio,NULL,NULL,2012-01-01
+metersPerSecondSquared,"meters per second squared",m/s^2,"$$ (m{cdot}s^{-1})^2 $$",acceleration,metersPerSecondSquared,1,NULL,ratio,NULL,NULL,2012-01-01
+metersSquared,"meters squared; this syntax is used for variance",m^2,"$$ m^{2} $$",area,NULL,NULL,NULL,ratio,NULL,NULL,2012-01-01
+metersSquaredPerDay,"meters squared per day; this syntax is used for variance",m^2/d,"$$ m^2{cdot}d^{-1} $$",transmissivity,metersSquaredPerSecond,86400,NULL,ratio,NULL,NULL,2012-01-01
+metersSquaredPerMeterSquared,"meters squared per meter squared; this syntax is used for variance",m^2/m^2,"$$ m^2{cdot}m^{-2} $$",variance,NULL,NULL,NULL,ratio,NULL,NULL,2012-01-01
+metersSquaredPerSecond,"meters squared per second; this syntax is used for variance",m^2/s,"$$ m^2{cdot}s^{-1} $$",transmissivity,metersSquaredPerSecond,1,NULL,ratio,NULL,NULL,2012-01-01
+microgram,"0.000000001 kilograms",ug,"$$ {mu}g $$",mass,kilogram,0.000000001,NULL,ratio,NULL,NULL,2012-01-01
+microgramsPerGram,"micrograms per gram",ug/g,"$$ {mu}g{cdot}g^{-1} $$",massPerMass,gramsPerGram,0.000001,NULL,ratio,NULL,NULL,2012-01-01
+microgramsPerLiter,"micrograms per liter",ug/L,"$$ {mu}g{cdot}L^{-1} $$",massDensity,kilogramsPerCubicMeter,0.000001,NULL,ratio,NULL,NULL,2012-01-01
+microgramsPerMilliliter,"micrograms per milliliter",um/mL,"$$ {mu}g{cdot}mL^{-1} $$",massDensity,kilogramsPerCubicMeter,0.001,NULL,ratio,NULL,NULL,2012-01-01
+microgramsPerSquareMeter,"micrograms per square meter",ug/m^2,"$$ {mu}g{cdot}m^{-2} $$",arealMassDensity,kilogramsPerSquareMeter,0.000000001,NULL,ratio,NULL,NULL,2012-01-01
+microliter,"0.000001 liters",uL,"$$ {mu}L $$",volume,cubicMeter,0.000000001,NULL,ratio,NULL,NULL,2012-01-01
+micrometer,"0.000001 meters",um,"$$ {mu}m $$",length,meter,0.000001,NULL,ratio,NULL,NULL,2012-01-01
+micromolesPerLiter,"micromoles per liter",uM/L,"$$ {mu}mol{cdot}L^{-1} $$",amountOfSubstanceConcentration,molesPerCubicMeter,0.000000001,NULL,ratio,NULL,NULL,2015-05-07
+micromolesPerMole,"micromoles per mole",uM/M,"$$ {mu}mol{cdot}mol^{-1} $$",amountOfSubstanceConcentration,molesPerMole,0.000001,NULL,ratio,NULL,NULL,2016-02-04
+micromolesPerSquareMeterPerSecond,"micromoles per square meter per second",uM/m^2/s,"$$ {mu}mol{cdot}m^{-2}{cdot}s^{-1} $$",arealAmountDensityRate,molesPerSquareMeterPerSecond,0.000001,NULL,ratio,NULL,NULL,2012-01-01
+micromolesPerSquareMeterPerSecondSquared,"(micromoles per square meter per second) squared; typically used for variance",(uM/m^2/s)^2,"$$ ({mu}mol{cdot}m^{-2}{cdot}s^{-1})^2 $$",variance,NULL,NULL,NULL,ratio,NULL,NULL,2012-01-01
+micron,"0.000001 meters",um,"$$ {mu}m $$",length,meter,0.000001,NULL,ratio,NULL,NULL,2012-01-01
+microsecond,"0.000001 seconds",us,"$$ {mu}s $$",time,second,0.000001,NULL,ratio,NULL,NULL,2012-01-01
+microsiemensPerCentimeter,"microsiemens per centimeter; used for concentration of ionized dissoved solids",uS/cm,"$$ {mu}S{cdot}cm^{-1} $$",NULL,NULL,NULL,NULL,ratio,NULL,NULL,2015-02-05
+microsiemensPerCentimeterSquared,"microsiemens per centimeter squared; used for the variance of concentration of ionized dissoved solids",uS/cm^2,"$$ {mu}S^2{cdot}cm^{-2} $$",variance,NULL,NULL,NULL,ratio,NULL,NULL,2015-05-21
+microvolt,"0.000001 volts",uV,"$$ {mu}V $$",potentialDifference,volt,0.000001,NULL,ratio,NULL,NULL,2012-01-01
+microwattsPerSquareCentimeterPerSteradianPerNanometer,"microwatts per square centimeter per steradian per nanometer; used for radiance",uW/cm^2/sr/nm,"$$ {mu}W{cdot}cm^{-2}{cdot}sr^{-1}{cdot}nm^{-1} $$",intensity,NULL,NULL,NULL,ratio,NULL,NULL,2015-02-13
+mile,"5280 feet or 1609.344 meters",mi,"$$ mi $$",length,meter,1609.34,NULL,ratio,NULL,NULL,2012-01-01
+milesPerHour,"miles per hour",mi/h,"$$ mi{cdot}h^{-1} $$",speed,metersPerSecond,2.23694,NULL,ratio,NULL,NULL,2012-01-01
+milesPerMinute,"miles per minute",mi/min,"$$ mi{cdot}min^{-1} $$",speed,metersPerSecond,0.0372823,NULL,ratio,NULL,NULL,2012-01-01
+milesPerSecond,"miles per second",mi/s,"$$ mi{cdot}s^{-1} $$",speed,metersPerSecond,0.000621371,NULL,ratio,NULL,NULL,2012-01-01
+milliampere,"0.001 amperes",mA,"$$ mA $$",current,ampere,0.001,NULL,ratio,NULL,NULL,2015-05-07
+millibar,"0.001 bars",mbar,"$$ mbar $$",pressure,pascal,0.01,NULL,ratio,NULL,NULL,2012-01-01
+milliequivalentsPerLiter,"milliequivalents per liter",meq/L,"$$ meq{cdot}L^{-1} $$",amountOfSubstanceConcentration,molesPerCubicMeter,NULL,NULL,ratio,NULL,NULL,2015-02-13
+milligram,"0.000001 kilograms",mg,"$$ mg $$",mass,kilogram,0.000001,NULL,ratio,NULL,NULL,2012-01-01
+milligramsPerCubicCentimeter,"milligrams per cubic centimeter",mg/cm^3,"$$ mg{cdot}cm^{-3} $$",volumetricMass,kilogramsPerCubicMeter,1,NULL,ratio,NULL,NULL,2015-11-04
+milligramsPerCubicMeter,"millgrams per cubic meter",mg/m^3,"$$ mg{cdot}m^{-3} $$",volumetricMass,kilogramsPerCubicMeter,0.000001,NULL,ratio,NULL,NULL,2012-01-01
+milligramsPerGram,"milligrams per gram",mg/g,"$$ mg{cdot}g{-1} $$",massPerMass,kilogramsPerKilogram,0.001,NULL,ratio,NULL,NULL,NULL
+milligramsPerKilogram,"milligrams per kilogram",mg/kg,"$$ mg{cdot}kg^{-1} $$",massPerMass,kilogramsPerKilogram,0.000001,NULL,ratio,NULL,NULL,2015-02-18
+milligramsPerLiter,"milligrams per liter",mg/L,"$$ mg{cdot}L^{-1} $$",volumetricMass,kilogramsPerCubicMeter,0.001,NULL,ratio,NULL,NULL,2012-01-01
+milligramsPerMilliliter,"milligrams per milliliter",mg/mL,"$$ mg{cdot}mL^{-1} $$",volumetricMass,kilogramsPerCubicMeter,1,NULL,ratio,NULL,NULL,2012-01-01
+milligramsPerSquareCentimeter,"milligrams per square centimeter",mg/cm^2,"$$ mg{cdot}cm^{-2} $$",arealMassDensity,kilogramsPerSquareMeter,NULL,NULL,ratio,NULL,NULL,NULL
+milligramsPerSquareMeter,"milligrams per square meter",mg/m^2,"$$ mg{cdot}m^{-2} $$",arealMassDensity,kilogramsPerSquareMeter,0.000001,NULL,ratio,NULL,NULL,2012-01-01
+millihertz,"0.001 hertz",mHz,"$$ mHz $$",frequency,hertz,0.001,NULL,ratio,NULL,NULL,2012-01-01
+milliliter,"0.001 liters",mL,"$$ mL $$",volume,cubicMeter,0.000001,NULL,ratio,NULL,NULL,2012-01-01
+millilitersPerMinute,"milliliters per minute",mL/min,"$$ mL{cdot}min^{-1} $$",volumetricRate,cubicMetersPerSecond,0.0000000166667,NULL,ratio,NULL,NULL,2015-05-07
+millimeter,"0.001 meters",mm,"$$ mm $$",length,meter,0.001,NULL,ratio,NULL,NULL,2012-01-01
+millimetersOfMercury,"millimeters of mercury",mmHg,mmHg,pressure,pascal,133.322,NULL,ratio,NULL,NULL,2015-10-15
+millimetersPerSecond,"millimeters per second",mm/s,"$$ mm{cdot}s^{-1} $$",speed,metersPerSecond,0.001,NULL,ratio,NULL,NULL,2012-01-01
+millimolesPerCubicMeter,"millimoles per cubic meter",mmol/m^3,"$$ mmol{cdot}m^{-3} $$",amountOfSubstanceConcentration,molesPerCubicMeter,0.001,NULL,ratio,NULL,NULL,2016-02-04
+millimolesPerGram,"millimoles per gram",mmol/g,"$$ mmol{cdot}g^{-1} $$",amountOfSubstanceWeight,molesPerKilogram,1,NULL,ratio,NULL,NULL,2012-01-01
+millimolesPerLiter,"millimoles per liter",mmol/L,"$$ mmol{cdot}L^{-1} $$",amountOfSubstanceConcentration,molesPerCubicMeter,1,NULL,ratio,NULL,NULL,2015-02-18
+millimolesPerMole,"millimoles per mole",mM/M,"$$ mmol{cdot}mol^{-1} $$",amountOfSubstanceConcentration,molesPerMole,0.001,NULL,ratio,NULL,NULL,2016-02-04
+millisecond,"0.001 seconds",ms,"$$ ms $$",time,second,0.001,NULL,ratio,NULL,NULL,2012-01-01
+millivolt,"0.001 volts",mV,"$$ mV $$",potentialDifference,volt,0.001,NULL,ratio,NULL,NULL,2012-01-01
+milliwatt,"0.001 watts",mW,"$$ mW $$",power,watt,0.001,NULL,ratio,NULL,NULL,2012-01-01
+minute,"60 seconds",min,"$$ min $$",time,second,60,NULL,ratio,NULL,NULL,2012-01-01
+molality,"molality = moles per kilogram",mol/kg,"$$ mol{cdot}kg^{-1} $$",amountOfSubstanceWeight,molesPerKilogram,1,NULL,ratio,NULL,NULL,2012-01-01
+molarity,"molarity = moles per liter",mol/L,"$$ mol{cdot}L^{-1} $$",amountOfSubstanceConcentration,molesPerCubicMeter,1000,NULL,ratio,NULL,NULL,2012-01-01
+mole,"SI unit of substance amount",mol,"$$ mol $$",amount,mole,1,NULL,ratio,NULL,NULL,2012-01-01
+molesPerCubicMeter,"moles per cubic meter",mol/m^3,"$$ mol{cdot}m^{-3} $$",amountOfSubstanceConcentration,molesPerCubicMeter,1,NULL,ratio,NULL,NULL,2012-01-01
+molesPerGram,"moles per gram",mol/g,"$$ mol{cdot}g^{-1} $$",amountOfSubstanceWeight,molesPerKilogram,1000,NULL,ratio,NULL,NULL,2012-01-01
+molesPerKilogram,"moles per kilogram",mol/kg,"$$ mol{cdot}kg^{-1} $$",amountOfSubstanceWeight,molesPerKilogram,1,NULL,ratio,NULL,NULL,2012-01-01
+molesPerKilogramPerSecond,"moles per kilogram per second",mol/kg/s,"$$ mol{cdot}kg^{-1}{cdot}s^{-1} $$",amountOfSubstanceWeightFlux,molesPerKilogramPerSecond,1,NULL,ratio,NULL,NULL,2012-01-01
+molesPerMole,"moles per mole",M/M,"$$ mol{cdot}mol^{-1} $$",amountOfSubstanceConcentration,molesPerMole,1,1,ratio,NULL,NULL,2017-10-13
+NA,"units not applicable",NULL,NA,NULL,NULL,NULL,NULL,NA,NULL,NULL,2015-03-06
+nanogram,"0.000000000001 kilograms",ng,"$$ ng $$",mass,kilogram,0.000000000001,NULL,ratio,NULL,NULL,2012-01-01
+nanogramsPerMicroliter,"nanograms per microliter",ng/uL,"$$ ng{cdot}{mu}L^{-1} $$",massDensity,kilogramsPerCubicMeter,0.001,NULL,ratio,NULL,NULL,2015-05-08
+nanogramsPerMilliliter,"nanograms per milliliter",ng/mL,"$$ ng{cdot}mL^{-1} $$",massDensity,kilogramsPerCubicMeter,0.000001,NULL,ratio,NULL,NULL,2015-05-08
+nanometer,"0.000000001 meters",nm,"$$ nm $$",length,meter,0.000000001,NULL,ratio,NULL,NULL,2012-01-01
+nanomolesPerGram,"nanomoles per gram",nM/g,"$$ nM{cdot}g^(-1) $$",amountOfSubstanceWeight,molesPerKilogram,1000000,NULL,ratio,NULL,NULL,2017-03-29
+nanomolesPerGramPerSecond,"nanomoles per gram per second",nmol,"$$ nmol{cdot}g^{-1}{cdot}s^{-1} $$",amount,mole,0.000000001,NULL,ratio,NULL,NULL,2012-01-01
+nanosecond,"0.000000001 seconds",ns,"$$ ns $$",time,second,0.000000001,NULL,ratio,NULL,NULL,2012-01-01
+nauticalMile,"approximately one minute of arc measured along any meridian;  1,852 meters or about 6,076 feet",NM,"$$ NM $$",length,meter,1852,NULL,ratio,NULL,NULL,2012-01-01
+newton,"the force needed to accelerate a mass of one kilogram one meter per second squared",N,"$$ N $$",force,newton,1,NULL,ratio,NULL,NULL,2012-01-01
+nominalDay,"one day excluding leap seconds, 86400 seconds",d,"$$ d $$",time,second,86400,NULL,ratio,NULL,NULL,2012-01-01
+nominalHour,"one hour excluding leap seconds, 3600 seconds",h,"$$ h $$",time,second,3600,NULL,ratio,NULL,NULL,2012-01-01
+nominalLeapYear,"one 366 day year excluding leap seconds, 31622400 seconds",leapYear,"$$ leapYear $$",time,second,31622400,NULL,ratio,NULL,NULL,2012-01-01
+nominalMinute,"one minute excluding leap seconds, 60 seconds",min,"$$ min $$",time,second,60,NULL,ratio,NULL,NULL,2012-01-01
+nominalSecond,"one second",s,"$$ s $$",time,second,1,NULL,ratio,NULL,NULL,2012-01-01
+nominalWeek,"one day excluding leap seconds, 604800 seconds",week,"$$ week $$",time,second,604800,NULL,ratio,NULL,NULL,2012-01-01
+nominalYear,"one year excluding leap seconds and leap days, 31536000 seconds",y,"$$ y $$",time,second,31536000,NULL,ratio,NULL,NULL,2012-01-01
+normality,"equivalent per liter",eq/L,"$$ eq{cdot}L^{-1} $$",amountOfSubstanceConcentration,NULL,NULL,NULL,ratio,NULL,NULL,2015-02-05
+number,"a number",number,"$$ number $$",amount,NULL,NULL,NULL,ratio,NULL,NULL,2012-01-01
+numberPerCubicMeter,"number of entities per cubic meter",number/m^3,"$$ number{cdot}m^{-3} $$",volumetricDensity,numberPerMeterCubed,1,NULL,ratio,NULL,NULL,2012-01-01
+numberPerGram,"number of entities per gram",number/g,"$$ number{cdot}g^{-1} $$",amountOfSubstanceWeight,numberPerKilogram,0.001,NULL,ratio,NULL,NULL,2012-01-01
+numberPerLiter,"number of entities per liter",number/L,"$$ number{cdot}L^{-1} $$",amountOfSubstanceConcentration,numberPerCubicMeter,0.001,NULL,ratio,NULL,NULL,2012-01-01
+numberPerMilliliter,"number of entities per milliliter",number/mL,"$$ number{cdot}mL^{-1} $$",amountOfSubstanceConcentration,numberPerCubicMeter,0.000001,NULL,ratio,NULL,NULL,2012-01-01
+numberPerNanogram,"number per nanogram",number/ng,"$$ number{cdot}ng^(-1) $$",amountOfSubstanceWeight,numberPerKilogram,0.00000000000001,NULL,ratio,NULL,NULL,2016-11-10
+numberPerSquareKilometer,"number of entities per square kilometer",number/km^2,"$$ number{cdot}km^{-2} $$",arealDensity,numberPerSquareMeter,1000,NULL,ratio,NULL,NULL,2012-01-01
+numberPerSquareMeter,"number of entities per square meter",number/m^2,"$$ number{cdot}m^{-2} $$",arealDensity,numberPerSquareMeter,1,NULL,ratio,NULL,NULL,2012-01-01
+ohm,"SI unit of electrical resistance, expressing the resistance in a circuit transmitting a current of one ampere when subjected to a potential difference of one volt",Ohm,"$$ Omega $$",resistance,ohm,1,NULL,ratio,NULL,NULL,2012-01-01
+ohmMeter,"ohm meters",Ohm/m,"$$ {Omega}{cdot}m $$",resistivity,ohmMeter,1,NULL,ratio,NULL,NULL,2012-01-01
+partsPerBillionPerCentimeter,"parts per billion per centimeter",ppb/cm,"$$ ppb{cdot}cm^{-1} $$",NULL,NULL,NULL,NULL,ratio,NULL,NULL,2016-03-24
+partsPerMillion,"parts per million",ppm,ppm,amountPerAmount,NULL,NULL,NULL,ratio,NULL,NULL,2015-10-15
+partsPerMillionSquared,"parts per million squared, a measure of variance",ppm^2,"$$ ppm^2 $$",variance,partsPerMillion,NULL,NULL,ratio,NULL,NULL,NULL
+partsPerMillionVolumetric,"parts per million on a volumetric basis (ppmv or uL/L)",ppmv,ppmv,volumetricDensity,NULL,NULL,NULL,ratio,NULL,NULL,2012-01-01
+partsPerThousand,"parts per thousand",ppt,ppt,amountPerAmount,NULL,NULL,NULL,ratio,NULL,NULL,2016-03-10
+partsPerTrillion,"parts per trillion",ppt,ppt,amountPerAmount,NULL,NULL,NULL,ratio,NULL,NULL,2016-03-10
+pascal,"one newton per square meter",Pa,"$$ Pa $$",pressure,pascal,1,NULL,ratio,NULL,NULL,2012-01-01
+percent,percent,%,"$$ %% $$",amountPerAmount,NULL,NULL,NULL,ratio,NULL,NULL,2012-01-01
+percentSquared,"percent squared; typically associated with variance",%^2,"$$ %%^2 $$",variance,NULL,NULL,NULL,ratio,NULL,NULL,2015-06-23
+permill,"parts per thousand",%%,"$$ unicode{x2030} $$",amountPerAmount,NULL,NULL,NULL,ratio,NULL,NULL,2016-03-10
+pH,"measure of hydrogen ion concentration",pH,"$$ pH $$",amountOfSubstanceConcentration,NULL,NULL,NULL,interval,NULL,NULL,2015-02-05
+pint,"US liquid pint",pt,"$$ pt $$",volume,cubicMeter,0.000473176,NULL,ratio,NULL,NULL,2012-01-01
+pound,"1 pound in the Avoirdupois (commerce) scale; 0.4536 kilograms",lb,"$$ lb $$",mass,kilogram,0.4536,NULL,ratio,NULL,NULL,2012-01-01
+poundsPerSquareInch,"pounds per square inch",lb/in^2,"$$ lb{cdot}in^{-2} $$",pressure,pascal,6894.76,NULL,ratio,NULL,NULL,2012-01-01
+proportion,proportion,proportion,proportion,amountPerAmount,NULL,NULL,NULL,ratio,NULL,NULL,2015-03-06
+quart,"US liquid quart",qt,"$$ qt $$",volume,cubicMeter,0.000946353,NULL,ratio,NULL,NULL,2012-01-01
+quinineSulfateUnit,"Fluorescence relative to a quinine sulfate solution standard",QSU,QSU,amountPerAmount,NULL,NULL,NULL,ratio,NULL,"Velapoldi, R.A. and Mielenz K.D. (1980) A fluorescence standard reference material: quinine sulfate dehydrate. National Bureau of Standards Special Publication 260-64.",2015-10-16
+radian,"2 pi radians comprise a unit circle.",rad,"$$ rad $$",angle,radian,1,NULL,ratio,NULL,NULL,2012-01-01
+radiansPerSecond,"radians per second",rad/s,"$$ rad{cdot}s^{-1} $$",speed,radiansPerSecond,1,NULL,ratio,NULL,NULL,2016-02-04
+revolutionsPerMinute,"revolutions per minute",rpm,"$$ rpm $$",speed,radiansPerSecond,0.159155,NULL,ratio,NULL,NULL,2015-05-23
+second,"SI unit of time",s,"$$ s $$",time,second,1,NULL,ratio,NULL,NULL,2012-01-01
+siemens,"SI unit of electric conductance, electric susceptance and electric admittance. 1 siemens is equal to the reciprocal of 1 ohm, or 1 ampere divided by 1 volt.",S,"$$ S $$",conductance,siemens,1,NULL,ratio,NULL,NULL,2012-01-01
+siemensPerCentimeter,"siemens per centimeter",S/cm,"$$ S{cdot}cm^{-1} $$",conductivity,siemensPerMeter,0.01,NULL,ratio,NULL,NULL,2015-02-18
+siemensPerMeter,"siemens per meter",S/m,"$$ S{cdot}m^{-1} $$",conductivity,siemensPerMeter,1,NULL,ratio,NULL,NULL,2012-01-01
+sievert,"SI derived unit of the health effect of an ionizing radiation dose. Also defined as the biological effect of the deposit of a joule of radiation energy in a kilogram of human tissue.",Sv,"$$ Sv $$",NULL,joulesPerKilogram,1,NULL,ratio,https://en.wikipedia.org/wiki/Sievert,NULL,2012-01-01
+spectroscopicWavenumber,"The number of wavelengths per distance unit, represented by the symbol v. 1 wavenumber or spectroscopic wavenumber = 1/lambda.",v,"$$ v $$",NULL,NULL,NULL,NULL,ratio,https://en.wikipedia.org/wiki/Wavenumber,NULL,2012-01-01
+squareCentimeter,"square centimeter",cm^2,"$$ cm^2 $$",area,squareMeter,0.0001,NULL,ratio,NULL,NULL,2012-01-01
+squareFoot,"12 inches squared",ft^2,"$$ ft^2 $$",area,squareMeter,0.092903,NULL,ratio,NULL,NULL,2012-01-01
+squareKilometer,"square kilometer",km^2,"$$ km^2 $$",area,squareMeter,1000000,NULL,ratio,NULL,NULL,2012-01-01
+squareMeter,"square meter",m^2,"$$ m^2 $$",area,squareMeter,1,NULL,ratio,NULL,NULL,2012-01-01
+squareMetersPerKilogram,"square meters per kilogram",m^2/kg,"$$ m^2{cdot}kg^{-1} $$",massSpecificLength,squareMetersPerKilogram,1,NULL,ratio,NULL,NULL,2012-01-01
+squareMile,"square mile",mi^2,"$$ mi^2 $$",area,squareMeter,0.00000259,NULL,ratio,NULL,NULL,2012-01-01
+squareMillimeter,"square millimeter",mm^2,"$$ mm^2 $$",area,squareMeter,0.000001,NULL,ratio,NULL,NULL,2012-01-01
+squareYard,"36 inches squared",yd^2,"$$ yd^2 $$",area,squareMeter,0.836127,NULL,ratio,NULL,NULL,2012-01-01
+strickler,"Ks; the inverse of the Gauckler-Manning coefficient; varies from about 20 for rough surfaces to 80 for smooth surfaces",m^(1/3)/s,"$$ m^{1/3}{cdot}s^{-1} $$",volumetricRate,NULL,NULL,NULL,ratio,NULL,NULL,2018-02-08
+tesla,"SI derived unit of the strength of a magnetic field. 1 tesla = one weber per square meter",T,"$$ T $$",magneticFluxDensity,voltSecondsPerSquareMeter,1,NULL,ratio,https://en.wikipedia.org/wiki/Tesla_(unit),NULL,2012-01-01
+ton,"standard US (short) ton = 2000 lbs",ton,"$$ ton $$",mass,kilogram,907.185,NULL,ratio,NULL,NULL,2012-01-01
+tonne,"metric ton or tonne",tonne,"$$ tonne $$",mass,kilogram,1000,NULL,ratio,NULL,NULL,2012-01-01
+tonnesPerHectare,"metric tons or tonnes per hectare",tonne/ha,"$$ tonne{cdot}ha^{-1} $$",massDensity,kilogramsPerSquareMeter,0.1,NULL,ratio,NULL,NULL,2012-01-01
+tonnesPerYear,"tonnes per year",tonne/y,"$$ tonne{cdot}y^{-1} $$",massFlux,kilogramsPerSecond,0.0000317098,NULL,ratio,NULL,NULL,2012-01-01
+torr,"1/760 of a standard atmosphere or 101325/760 pascals (~133.3 Pa)",Torr,"$$ Torr $$",pressure,pascal,133.3,NULL,ratio,NULL,NULL,2016-03-10
+trapNight,"number of traps set times number of nights; a measure of sampling effort",trap*night,"$$ trap{cdot}night $$",NULL,NULL,NULL,NULL,ratio,NULL,NULL,2012-01-01
+volt,"SI unit of electromotive force, the difference of potential that would drive one ampere of current against one ohm resistance",V,"$$ V $$",potentialDifference,volt,1,NULL,ratio,NULL,NULL,2012-01-01
+voltMetersSquaredPerWatt,"volt-meters squared per watt; unit of calibration coefficient",Vm^2/W,"$$ (V{cdot}m)^2{cdot}W^{-1} $$",NULL,NULL,NULL,NULL,ratio,NULL,NULL,2015-12-04
+watt,"watt = 1 joule per second",W,"$$ W $$",power,joulesPerSecond,1,NULL,ratio,NULL,NULL,2012-01-01
+wattsPerSquareMeter,"watts per square meter",W/m^2,"$$ W{cdot}m^{-2} $$",intensity,wattsPerSquareMeter,1,NULL,ratio,NULL,NULL,2012-01-01
+wattsPerSquareMeterSquared,"(watts per square meter) squared; typically used for variance",(W/m^2)^2,"$$ (W{cdot}m^{-2})^2 $$",variance,NULL,NULL,NULL,ratio,NULL,NULL,2012-01-01
+weber,"SI unit of magnetic flux",Wb,"$$ Wb $$",magneticFlux,weber,1,NULL,ratio,NULL,NULL,2012-01-01
+yard,"3 feet",yd,"$$ yd $$",length,meter,0.9144,NULL,ratio,NULL,NULL,2012-01-01
+yardsPerSecond,"yards per second",yd/s,"$$ yd{cdot}s^{-1} $$",speed,metersPerSecond,0.9144,NULL,ratio,NULL,NULL,2012-01-01
+year,"The period of time loosely associated with a calendar or astronomical year or the orbital period of any planet. In general usage, year is used interchangebly with a Gregorian year.",y,"$$ y $$",time,second,31557600,NULL,ratio,https://en.wikipedia.org/wiki/Year,NULL,2016-04-26
